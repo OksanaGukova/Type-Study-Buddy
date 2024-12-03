@@ -1,2 +1,128 @@
 @import './styleguide.css';
 
+.body {
+    width: 1920px;
+    padding: 72px 77px;
+}
+
+.header {
+    padding-bottom: 32px;
+}
+
+.svg {
+     width: 88px; /* Розмір іконки */
+            height: 88px;
+    fill: rgba(0, 0, 0, 0.25);
+}
+
+.header-container {
+    display:grid;
+    grid-template-columns: 88px 1fr 88px;
+
+    gap: 8px;
+   
+  border-bottom: 1px solid var(--black---25);
+}    
+
+.header-text {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+.head-header {
+font-family: var(--font4);
+font-weight: 400;
+font-size: 72px;
+line-height: 100%;
+text-align: center;
+
+}
+
+.head-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+text-align: center;
+color: var(--black---50);
+}
+
+.main {
+    padding-bottom: 32px;
+}
+
+.main-text {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 80px;
+line-height: 105%;
+text-align: center;
+color: var(--black---100);
+margin-bottom: 32px;
+
+}
+
+.main-container {
+border-bottom: 1px solid var(--black---25);
+}
+
+.first-section {
+    padding-bottom: 32px;
+}
+
+.first-section-container {
+    display: grid;
+    grid-template-columns: 576px 726px 426px;
+    gap: 24px;
+
+    border-bottom: 1px solid var(--black---25);
+}
+
+.first-section-header {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 64px;
+line-height: 112%;
+color: var(--black---100);
+margin-bottom: 4px;
+}
+
+.author {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 133%;
+color: var(--black---50);
+margin-bottom: 24px;
+}
+
+.first-section-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 133%;
+color: var(--black---100);
+}
+
+.first-section-img {
+    margin-bottom: 12px;
+}
+
+.img-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+line-height: 133%;
+color: var(--black---100);
+}
+
+.paragraph-text {
+
+font-weight: 700;
+font-size: 48px;
+line-height: 117%;
+color: var(--black---100);
+margin-bottom: 8px;
+margin-bottom: 32px;
+}
