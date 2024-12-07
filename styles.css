@@ -126,3 +126,128 @@ color: var(--black---100);
 margin-bottom: 8px;
 margin-bottom: 32px;
 }
+
+.second-section {
+padding-bottom: 32px;
+}
+
+.second-section-container {
+    display: grid;
+    grid-template-columns: 276px 276px 1fr;
+    gap: 12px;
+     border-bottom: 1px solid var(--black---25);
+   
+}
+
+.empire-container {
+border-right: 1px solid var(--black---25);
+width: 276px;
+margin-bottom: 12px;
+ padding-right: 12px;
+  box-sizing: border-box; 
+    margin-bottom: 32px;
+}
+
+.empire-header {
+  
+font-weight: 700;
+font-size: 36px;
+line-height: 122%;
+}
+
+.text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+
+}
+
+.lines-container {
+  border-right: 1px solid var(--black---25);
+width: 276px;
+margin-bottom: 12px;
+ padding-right: 12px;
+  box-sizing: border-box; 
+}
+
+.lines-header {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 122%;
+}
+
+.swarm-header {
+
+font-weight: 700;
+font-size: 48px;
+line-height: 117%;
+}
+
+.swarm-container {
+    width: 1176px;
+
+  
+}
+
+.swarm-text {
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    
+}
+
+.printer-header {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 122%;
+margin-bottom: 8px;
+
+}
+.printer-img {
+    margin-bottom: 24px;
+   
+}
+
+.printer-container {
+    width: 426px;
+    border-right: 1px solid var(--black---25);
+    padding-right: 12px;
+    box-sizing: border-box;
+    margin-right: 12px;
+}
+
+.birds-conteaner {
+    width: 276px;
+    border-right: 1px solid var(--black---25);
+    padding-right: 12px;
+    box-sizing: border-box;
+    margin-right: 12px;
+}
+
+.birds-header {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 122%;
+margin-bottom: 8px;
+}
+
+.weather-header {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 167%;
+margin-bottom: 8px;
+}
+
+.weather-container {
+    width: 1026px;
+height: 248px;
+    border-bottom: 1px solid var(--black---25);
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    
+}
