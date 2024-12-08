@@ -26,7 +26,7 @@
 
 .header-text {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+   margin-bottom: 32px;
     justify-items: center;
 }
 
@@ -247,7 +247,67 @@ margin-bottom: 8px;
     width: 1026px;
 height: 248px;
     border-bottom: 1px solid var(--black---25);
-    padding-bottom: 32px;
+    box-sizing: content-box;
+  padding-bottom: 32px;
+    display: grid;
+    grid-template-columns: 276px 1fr;
+    gap: 24px;
     margin-bottom: 32px;
-    
+}
+
+table {
+  width: 726px;
+  height: 248px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+
+}
+
+thead th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tbody td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody td:first-child {
+  background-color: #d3d3d3; /* Сірий фон для часових слотів */
+  font-weight: bold;
+  text-align: left;
+}
+
+tbody td:first-child,
+thead th:first-child {
+  position: sticky;
+  left: 0;
+}
+
+table td, table th {
+  white-space: nowrap; /* Уникнення переносу тексту */
+}
+
+
+.news-header {
+
+font-weight: 700;
+font-size: 64px;
+line-height: 112%;
+
+}
+
+.third-section-container {
+    display: grid;
+    grid-template-columns: 438px 288px 1fr;
+    gap: 12px;
 }
